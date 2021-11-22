@@ -1,0 +1,56 @@
+<html>
+  <head>
+      <title>5 minute break</title>
+      <link rel="stylesheet" type="text/css" href="css/site.css">
+      <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+      <script src="js/page.js" defer></script>
+  </head>
+
+  <body style= "background-color:#45b3e0">
+    <div class="outer">
+      <div class="middle">
+        <div class="inner">
+
+
+          <div id= "StartScreen">
+            <h1> How long do you want to take a break for? </h1>
+            <button id = '1MinTimer'>
+              Take a break for 1 minute.
+            </button>
+            <p> </p>
+            <button id = '5MinTimer'>
+              Take a break for 5 minutes.
+            </button>
+            <p> </p>
+            <button id = '10MinTimer'>
+              Take a break for 10 minutes.
+            </button>
+          </div>
+
+          <div id= "BreakScreen">
+            <h2> This is placeholder text. </h2>
+            <!--show breathing animation for part of BUTTONPRESS minutes-->
+            <div id = breathing>
+
+            </div>
+            <!--hide breathing animation and replace with positive affirmations, hide and reveal for part of BUTTONPRSS minutes-->
+            <div id = affirmations>
+              This text should not appear.
+            </div>
+            <!--hide affirmations and cycle through pictures of cute animals using same method
+            -->
+          </div>
+
+          <div id= "EndScreen">
+            <h1> I hope you enjoyed your break!</h1>
+            <button id= "Restart">
+             Would you like to take another break?
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
