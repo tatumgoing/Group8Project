@@ -13,6 +13,20 @@
   text-align:center;
 }
 
+#affirmations{
+  font-size: 40px;
+}
+
+#pictures{
+
+}
+
+img {
+  max-width: 400px;
+  max-height: 400px;
+  border: 5px solid #1f7fbf;
+}
+
 .outer {
   display: table;
   position: absolute;
@@ -31,4 +45,17 @@
   margin-left: auto;
   margin-right: auto;
   width: 400px;
+}
+
+button {
+  background-color: #87ceeb;
+  border-radius: 8px;
+  border: 5px solid #f3fafd;
+  color: #f3fafd;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
 }
